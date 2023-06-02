@@ -5,9 +5,17 @@
     <meta name="viewport" content="width=device-width" />
     <title>Files in {{ dir_name }}/</title>
     <style>{{ style | safe }}</style>
+      <script>
+      var frame = document.getElementById("Iframe");
+      frame.onload = function()
+      {
+        frame.style.height = frame.contentWindow.document.body.scrollHeight + 'px';
+        frame.style.width  = frame.contentWindow.document.body.scrollWidth+'px';
+      }
+      </script>
   </head>
   <body style="background-color: black; color: #c7c7c7;">
-    <iframe src="./index.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
+    <iframe src="./index.html" id="index" style="width:100%"></iframe>
     <hr>
     <div class="breadcrumbs">
       {% for breadcrumb in breadcrumbs %}
