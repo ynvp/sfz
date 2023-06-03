@@ -1,7 +1,6 @@
 html {
-  font-family: -apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
   line-height: 1.5;
-  color: #24292e;
+  color: #c7c7c7;
 }
 
 .breadcrumbs {
@@ -58,7 +57,7 @@ li svg, .breadcrumbs svg {
 }
 
 li a {
-  color: #0366d6;
+  color: #dc00ff;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
