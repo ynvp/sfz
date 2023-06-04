@@ -1,6 +1,7 @@
 html {
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
   line-height: 1.5;
-  color: #c7c7c7;
+  color: #24292e;
 }
 
 .breadcrumbs {
@@ -19,8 +20,8 @@ html {
 }
 
 /* final breadcrumb */
-.breadcrumbs > strong {
-  color: #00D600;
+.breadcrumbs > b {
+  color: #24292e;
 }
 
 .breadcrumbs > .separator {
@@ -56,8 +57,8 @@ li svg, .breadcrumbs svg {
   padding-left: 0.5em;
 }
 
-a {
-  color: #83a1ff;
+li a {
+  color: #d7d7d7;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -65,7 +66,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #e6ff00;
-  text-decoration: underline;
+li a:hover {
+  color: #33ff00;
 }
