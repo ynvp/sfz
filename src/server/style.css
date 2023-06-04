@@ -69,3 +69,16 @@ li a {
 li a:hover {
   color: #33ff00;
 }
+
+a {
+  color: #d7d7d7;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #33ff00;
+}
