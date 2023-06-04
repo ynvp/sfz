@@ -4,6 +4,19 @@ html {
   color: #24292e;
 }
 
+a {
+  color: #d7d7d7;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #33ff00;
+}
+
 .breadcrumbs {
   font-size: 1.25em;
   padding: 2.5em;
@@ -70,13 +83,4 @@ li a:hover {
   color: #33ff00;
 }
 
-a {
-  color: #d7d7d7;
-  text-overflow: ellipsis;
-  display: block;
-  text-decoration: none;
-}
 
-a:hover {
-  color: #33ff00;
-}
