@@ -62,15 +62,10 @@ li a {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  display: block;
   text-decoration: none;
 }
 
 li a:hover {
   color: #33ff00;
-}
-
-a {
-  display: inline;
 }
 
