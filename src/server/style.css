@@ -20,7 +20,7 @@ html {
 
 /* final breadcrumb */
 .breadcrumbs > strong {
-  color: #24292e;
+  color: #00D600;
 }
 
 .breadcrumbs > .separator {
@@ -57,7 +57,7 @@ li svg, .breadcrumbs svg {
 }
 
 a {
-  color: #dc00ff;
+  color: #83a1ff;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -66,5 +66,6 @@ a {
 }
 
 a:hover {
+  color: #e6ff00;
   text-decoration: underline;
 }
